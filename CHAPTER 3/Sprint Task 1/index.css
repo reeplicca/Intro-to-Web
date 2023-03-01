@@ -4,7 +4,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .first {
-    border: 5px solid blue; 
     width: 70%; 
     margin: 0 auto;
 }
@@ -12,11 +11,19 @@ body {
 .bg-red {
     background-color: rgb(187, 33, 33);
     color: white;
-    background-size: 30px 30pxs;
+    background-size: 30px 30px;
+    margin: 10px 50px;
+}
+
+.bg-red1 {
+    background-color: rgb(187, 33, 33);
+    color: white;
+    background-size: 30px 30px;
 }
 
 .bg-blue {
     background-color: rgb(57, 57, 138);
+    margin: 10px 50px;
 }
 
 .news {
@@ -32,12 +39,13 @@ body {
 
 .image1 {
     width: 40%;
+    margin-left: 10px;
 }
 
 .text {
-    width: 70%;
+    width: 60%;
     padding: 10px;
-    margin-left: 25%;
+    margin-left: 1%;
 }
 
 .button > button {
@@ -60,24 +68,51 @@ body {
     padding: 10px 1px;
 }
 
+.container3 {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    padding-left: 20px;
+}
+
 .container div {
     margin-right: 20px;
 }
 
 .image {
-    width: 200px;
+    width: 220px;
     height: 200px;
     overflow: hidden;
-    margin: 10px;
 }
 
-.image1 {
-    margin: 10px;
-    overflow: visible;
+.image123 {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 12.5px;
+}
+
+.b1 {
+    width: 25%;
+    margin-left: 4px;
+}
+
+.b2 {
+    width: 25%;
+    margin-left: 4px;
+}
+
+.b3 {
+    width: 25%;
+    margin-left: 4px;
+}
+
+.b4 {
+    width: 25%;
+    margin-left: 4px;
 }
 
 .center {
     text-align: center;
-    margin: 1px;
 }
 
