@@ -1,0 +1,83 @@
+body {
+    background: white;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first {
+    border: 5px solid blue; 
+    width: 70%; 
+    margin: 0 auto;
+}
+
+.bg-red {
+    background-color: rgb(187, 33, 33);
+    color: white;
+    background-size: 30px 30pxs;
+}
+
+.bg-blue {
+    background-color: rgb(57, 57, 138);
+}
+
+.news {
+    width: 75%;
+}
+
+.button {
+    display: flex;
+    width: 25%;
+    padding: 10px;
+    margin-left: 50%;
+}
+
+.image1 {
+    width: 40%;
+}
+
+.text {
+    width: 70%;
+    padding: 10px;
+    margin-left: 25%;
+}
+
+.button > button {
+    background-color: rgb(187, 33, 33);
+    color: grey;
+    border: none;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    padding: 0.5px 10px;
+}
+
+.container2 {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    padding: 10px 1px;
+}
+
+.container div {
+    margin-right: 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image1 {
+    margin: 10px;
+    overflow: visible;
+}
+
+.center {
+    text-align: center;
+    margin: 1px;
+}
+
