@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(148, 162, 180);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-blue {
+    background-color: rgb(64, 64, 144);
+    color: white;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+}
+
+.VK {
+    width: 25%;
+}
+
+.search {
+    width: 75%;
+    margin: 22px;
+}
+
+.search_input {
+    background-color: rgba(175, 148, 144, 0.805);;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.buttons {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.buttons div {  
+    margin: 6px;
+}
+
+.buttons button {
+    background-color: rgba(138, 138, 205, 0);
+}
+
+.container2 {
+    width: 75%;
+}
