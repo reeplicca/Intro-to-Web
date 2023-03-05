@@ -1,0 +1,114 @@
+body {
+    background-color: #e8ebee;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-blue {
+    background-color: #4078a6;
+    color: white;
+}
+.container {
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+}
+
+.VK {
+    width: 25%;
+}
+
+.search {
+    width: 75%;
+    margin: 22px;
+}
+
+.search_input {
+    background-color: rgba(175, 148, 144, 0.805);;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.buttons { 
+    width: 120px;
+    background-color: #e8ebee;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 430px;
+}
+
+.buttons button {
+    background-color: #e8ebee;
+    border: #e8ebee;
+}
+
+
+.container2 {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    margin-top: -285px;
+    margin-left: 640px;
+}
+
+.knopka {
+    margin: 10px 45px;
+}
+
+.friends {
+    width: 250px;
+    height: 170px;
+    margin-left: 640px;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.qwe {
+    width: 250px;
+}
+
+.avatarki {
+    height: 25px;
+    width: 25px;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+
+.info {
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin-left: 940px;
+    margin-top: -470px;
+}
+
+.line {
+    border-bottom: 1px solid #f00; /* Параметры линии */
+}
+
+.myimages {
+    height: 300px;
+    width: 700px;
+    background-color: white;   
+    margin-left: 940px;
+    margin-top: 20px;
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.text {
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin-left: 940px;
+    margin-top: 20px;
+}
