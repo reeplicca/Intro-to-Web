@@ -8,7 +8,6 @@ body {
     background-color: #4078a6;
     color: white;
 }
-
 .container {
     display: flex;
     max-width: 960px;
@@ -36,8 +35,8 @@ body {
     display: flex;
     align-content: space-between;
     flex-direction: column;
-    padding-top: 10px;
-    margin: left;
+    margin-top: 50px;
+    margin-left: 430px;
 }
 
 .buttons button {
@@ -50,7 +49,8 @@ body {
     height: 250px;
     width: 250px;
     background-color: white;
-    margin-left: 50px;
+    margin-top: -285px;
+    margin-left: 640px;
 }
 
 .knopka {
@@ -60,10 +60,55 @@ body {
 .friends {
     width: 250px;
     height: 170px;
-    margin-left: -250px;
-    margin-top: 300px;
+    margin-left: 640px;
+    margin-top: 30px;
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.qwe {
+    width: 250px;
 }
 
 .avatarki {
+    height: 25px;
+    width: 25px;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+
+.info {
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin-left: 940px;
+    margin-top: -470px;
+}
+
+.line {
+    border-bottom: 1px solid #f00; /* Параметры линии */
+}
+
+.myimages {
+    height: 300px;
+    width: 700px;
+    background-color: white;   
+    margin-left: 940px;
+    margin-top: 20px;
+}
+
+.images {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.text {
+    height: 300px;
+    width: 700px;
+    background-color: white;
+    margin-left: 940px;
+    margin-top: 20px;
 }
