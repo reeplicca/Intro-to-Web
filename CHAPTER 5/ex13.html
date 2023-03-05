@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <script>
+            let n = parseInt(prompt("Choose your branch: \n 1 - Science \n 2 - Humanitarian subjects \n 3 - Art \n 4 - Sport"))
+
+            if(n == 1) {
+                let choose = parseInt(prompt("Если вы нажали на 1, то: (Вы выбрали Science - Науку) \n 1 - Math \n 2 - Physics"))
+                if(choose == 1) {
+                    alert("Если вы выбрали 1 то: \n You are Financier")
+                } else {
+                    alert("Если вы выбрали 2 то: \n You are Engineer")
+                }
+            } else if (n == 2) {
+                let choose = parseInt(prompt("Если вы нажали на 2, то: (Вы выбрали Humanitarian subjects - Гуманитарные предметы) \n 1 - History \n 2 - Foreign Languages:"))
+                if(choose == 1) {
+                    alert("Если вы выбрали 1 то: \n You are Historic or Diplomat ")
+                } else {
+                    alert("Если вы выбрали 2 то: \n You are Translator")
+                }
+            } else if (n == 3) {
+                let choose = parseInt(prompt("Если вы нажали на 3, то: (Вы выбрали Art - Искусство) \n 1 - Drawing \n 2 -Singing:"))
+                if(choose == 1) {
+                    alert("Если вы выбрали 1 то: \n You are Painter or Architect")
+                } else {
+                    alert("Если вы выбрали 2 то: \n You are Singer or Tamada")
+                }
+            } else if (n == 4) {
+                let choose = parseInt(prompt("Если вы нажали на 4, то: (Вы выбрали Sport - Спорт) \n 1 - Team \n 2 - Individual:"))
+                if(choose == 1) {
+                    alert("Если вы выбрали 1 то: \n You are footballer or Basketball player")
+                } else {
+                    alert("Если вы выбрали 2 то: \n You are boxer or tennis player")
+                }
+            }
+        </script>
+    </body>
+</html>

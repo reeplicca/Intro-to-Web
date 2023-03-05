@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <script>
+            let n = parseInt(prompt("INSERT YOUR AMOUNT IN KZT:"));
+            let number = parseInt(prompt("1- CONVERT TO USD \n 2- CONVERT TO EUR \n 3- CONVERT TO GBP"));
+
+            if (number == 1) {
+                let result = n / 380;
+                alert(`${n} KZT = ${result.toFixed(2)} USD`);
+            } else if (number == 2) {
+                let result = (n / 430);
+                alert(`${n} KZT = ${result.toFixed(2)} EUR`);
+            } else if (number == 3) {
+                let result = n / 480;
+                alert(`${n} KZT = ${result.toFixed(2)} GBP`);
+            } else {
+                alert("no");
+            }
+        </script>
+    </body>
+</html>

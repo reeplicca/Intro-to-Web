@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <script>
+            let n = parseInt(prompt("insert number"));
+
+            if(n % 380 == 0) {
+                alert(`ONLY ${n / 380} USD`)
+            } else {
+                alert(`${(n / 380).toFixed(0)} USD and ${(n % 380)} cents`)
+            }
+        </script>
+    </body>
+</html>
