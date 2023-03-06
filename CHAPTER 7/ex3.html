@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script>
+            let arr = []
+            while (true) {
+                var numbers = parseInt(prompt())
+                if (numbers == 0) {
+                    break;
+                }else {
+                    arr.push(numbers);
+                }
+            }
+
+            let result = "";
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] > 0) {
+                    result += arr[i] + " ";
+                }
+            }
+
+            alert(result);
+        </script>
+    </head>
+</html>

@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script>
+            let users = [
+                {name: "Harry Potter and the Philosopher's Stone", avtor: "Joanne Rowling", ISBN: "1233123", price: "50"},
+                {name: "Harry Potter and the Chamber of Secrets", avtor: "Joanne Rowling", ISBN: "222332", price: "40"},
+                {name: "Harry Potter and the Prisoner of Azkaban", avtor: "Joanne Rowling", ISBN: "452323", price: "55"}
+            ];
+
+            let avtor = prompt("Insert avtor: ");
+            let userCanEnter = false;
+            var text = "";
+            
+            for(var i=0;i<users.length;i++){
+                if (users[i].avtor == avtor) {
+                    userCanEnter = true;
+                    text += users[i].name + " - " + users[i].avtor + " - " + users[i].ISBN + " - " + users[i].price + "$" + "\n";
+                }
+            }
+
+            if(!userCanEnter) {
+                alert("Avtor not found")
+            } else {
+                alert(text);
+            }
+
+        </script>
+    </head>
+</html>

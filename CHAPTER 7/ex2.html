@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script>
+            let arr = []
+            while (true) {
+                var numbers = parseInt(prompt())
+                if (numbers == 0) {
+                    break;
+                }else {
+                    arr.push(numbers);
+                }
+            }
+
+            let sum = 1;
+
+            for (let i = 0; i < arr.length; i++) {
+                sum *= arr[i];
+            }
+
+            alert(`${Math.pow(sum, 1 / arr.length).toFixed(3)}`)
+        </script>
+    </head>
+</html>

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            let n = parseInt(prompt("insert number"));
+            let numbers = prompt().split(" ");
+            let m = parseInt(prompt("insert number"));
+            let userCanEnter = false;
+
+            for (let i = 0; i < numbers.length; i++) {
+                if(numbers[i] == m) {
+                    alert("YES " + i);
+                    userCanEnter = true;
+                    break
+                }
+            }
+
+            if (!userCanEnter) {
+                alert("NO")
+            }
+
+            
+        </script>
+    </head>
+</html>

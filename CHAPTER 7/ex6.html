@@ -1,0 +1,35 @@
+<html>
+    <main>
+        <script>
+            let students = []
+        
+            while (true) {
+                let n = parseInt(prompt("PRESS 1 TO ADD STUDENT\n   INSERT NAME:\n   INSERT SURNAME:\n   INSERT GPA:\nPRESS 2 TO LIST STUDENT\nPRESS 0 TO EXIT"))
+                if (n == 1) {
+                    let name1 = prompt("Insert Name:")
+                    let surname1 = prompt("Insert Surname")
+                    let gpa1 = prompt("Insert GPA")
+
+                    let newStudent = {}; 
+                    newStudent.name = name1; 
+                    newStudent.surname = surname1;
+                    newStudent.gpa = gpa1
+
+                    students.push(newStudent)
+                } else if (n == 2) {
+                    let text = "";
+
+                    for (let i = 0; i < students.length; i++) {
+                        text += students[i].name + " - " + students[i].surname + " - " + students[i].gpa + "\n"
+                    }
+
+                    alert(text)
+                } else if (n == 0) {
+                    break;
+                } else {
+                    continue
+                }
+            }
+        </script>
+    </main>
+</html>

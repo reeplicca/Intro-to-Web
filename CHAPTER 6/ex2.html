@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script>
+            let n = parseInt(prompt("insert number"));
+            let numbers = prompt().split(" ");
+            let max = numbers[0];
+            
+            for (let i = 0; i < numbers.length; i++) {
+                if (max < numbers[i]) {
+                    max = numbers[i];
+                }
+            }
+
+            console.log(max);
+        </script>
+    </head>
+</html>

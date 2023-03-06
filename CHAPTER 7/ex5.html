@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <script>
+            let cars = [
+                {name: "Toyota", price: 120, year: 2015, volume: 2.2},
+                {name: "Mercedes", price: 70, year: 2018, volume: 3.8},
+                {name: "Toyota", price: 70, year: 2013, volume: 2.0},
+                {name: "BMW", price: 110, year: 2011, volume: 3.0},
+                {name: "Lexus", price: 600, year: 2017 ,volume: 5.7}
+            ];
+
+            while (true) {
+                let n = parseInt(prompt("INSERT [1] TO SEARCH BY NAME \nINSERT [2] TO SEARCH BY YEAR \nINSERT [3] TO SEARCH BY ENGINE VOLUME \nINSERT [4] TO SEARCH BY PRICE \nINSERT [5] TO EXIT"))
+                if (n == 1) {
+                    let k = prompt("INSERT NAME OF CAR: ")
+                    var text = "";
+
+                    for (let i = 0; i < cars.length; i++) {
+                        if (k == cars[i].name) {        
+                            text += cars[i].name + " - " + cars[i].year + " - " + cars[i].volume + " liters - " + cars[i].price + " KZT " + "\n"
+                        }
+                    }
+
+                    alert(text)
+                } else if (n == 2) {
+                    let k = parseInt(prompt("INSERT YEAR START FROM: "))
+                    let m = parseInt(prompt("INSERT YEAR ENDS FROM: "))
+                    var text = "";
+                    
+                    for (let i = 0; i < cars.length; i++) {
+                        if (cars[i].year >= k && cars[i].year <= m) {        
+                            text += cars[i].name + " - " + cars[i].year + " - " + cars[i].volume + " liters - " + cars[i].price + " KZT " + "\n"
+                        }
+                    }
+
+                    alert(text)
+                } else if (n == 3) {
+                    let k = prompt("INSERT ENGINE VOLUME START FROM: ")
+                    let m = prompt("INSERT ENGINE VOLUME ENDS FROM: ")
+                    var text = "";
+                    
+                    for (let i = 0; i < cars.length; i++) {
+                        if (cars[i].volume >= k && cars[i].volume <= m) {        
+                            text += cars[i].name + " - " + cars[i].year + " - " + cars[i].volume + " liters - " + cars[i].price + " KZT " + "\n"
+                        }
+                    }
+
+                    alert(text)
+                } else if(n == 4) {
+                    let k = prompt("INSERT PRICE START FROM: ")
+                    let m = prompt("INSERT PRICE ENDS FROM: ")
+                    var text = "";
+                    
+                    for (let i = 0; i < cars.length; i++) {
+                        if (cars[i].price >= k && cars[i].price <= m) {        
+                            text += cars[i].name + " - " + cars[i].year + " - " + cars[i].volume + " liters - " + cars[i].price + " KZT " + "\n"
+                        }
+                    }
+
+                    alert(text)
+                } else if(n == 5) {
+                    break;
+                } else {
+                    continue;
+                }
+            }
+        </script>
+    </head>
+</html>

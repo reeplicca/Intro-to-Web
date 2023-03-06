@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script>
+            let users = [
+                {name: "Aibek", login: "aibek01", password: "ai123"},
+                {name: "Ilyas", login: "ilyas05", password: "il123"},
+                {name: "Eldar", login: "eldar07", password: "el123"}
+            ];
+
+            
+
+            let login = prompt("enter login: ");
+            let password = prompt("enter password: ");
+
+            let userCanEnter = false;
+
+            for(let u of users) {
+                if(u.login == login && u.password == password) {
+                    userCanEnter = true;
+                    alert("Welcome, you are authenticated " + u.name)
+                    break;
+                }
+            }
+
+            if(!userCanEnter) {
+                alert("User not found")
+            }
+
+            var text = "";
+            
+            for(var i=0;i<users.length;i++){
+                text += users[i].login + " - " + users[i].password + "\n";
+            } 
+
+            alert(text);
+
+        </script>
+    </head>
+</html>
