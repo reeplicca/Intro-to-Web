@@ -15,12 +15,6 @@ body {
     margin: auto;
 }
 
-.bg-red1 {
-    background-color: rgb(187, 33, 33);
-    color: white;
-    background-size: 30px 30px;
-}
-
 .bg-blue {
     background-color: rgb(57, 57, 138);
     margin: auto;
