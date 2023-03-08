@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.bg-blue {
+    height: 25px;
+    width: 250px;
+    background-color: #eaedef;
+}

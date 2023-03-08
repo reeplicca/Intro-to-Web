@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Welcome Traveler</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div>
+                Введите сумму:
+                <br>
+                <input type="number" id = "summaDeneg">
+                <select id="changeMoney">
+                    <option value="KZT">KZT</option>
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                </select>
+            </div>
+            <div>
+                KZT (tenge)
+                <div class = "bg-blue">
+                    <div id = "tradeKZT"></div>
+                </div>
+            </div>
+            <div>
+                USD (dollar)
+                <div class = "bg-blue">
+                    <div id = "tradeUSD"></div>
+                </div>
+            </div>
+            <div>
+                EUR (euro)
+                <div class = "bg-blue">
+                    <div id = "tradeEUR"></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
