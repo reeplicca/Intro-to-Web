@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class = "bg-whiteBlue">
+            <div class = "twitter">
+                <h2 class = "colorWhite">TWITTER</h2>
+            </div>
+            <div class = "buttons">
+                <a href="" class = "colorWhite">Tweets</a>
+                <a href="" id ="accFullNameButton" class = "colorWhite"></a>
+                <a href="login.html" class = "colorWhite">Logout</a>
+            </div>
+        </div>
+        <div class = "main">
+            <div class = "empty"></div>
+            <div class = "container">
+                <H1 id = "accFullNameH1">WElCOME</H1>
+                <div>
+                    <p>EMAIL:</p>
+                    <h3 id = "accEmail"></h3>
+                </div>
+                <div>
+                    <p>FULL NAME:</p>
+                    <h3 id = "accFullName"></h3>
+                </div>
+                <div>
+                    <p>COUNTRY:</p>
+                    <h3 id = "accCountry"></h3>
+                </div>
+                <div>
+                    <p>BIRTHDATE:</p>
+                    <h3 id = "accBirthDate"></h3>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        let json = localStorage.getItem("account")
+        let data = JSON.parse(json)
+        accFullNameH1.innerHTML = `Welcome ${data.fullname}`
+        accEmail.innerHTML = data.email
+        accFullName.innerHTML = data.fullname
+        accCountry.innerHTML = data.country
+        accBirthDate.innerHTML = data.birthdate
+        accFullNameButton.innerHTML = data.fullname
+    </script>
+</html>

@@ -1,0 +1,55 @@
+.bg-whiteBlue {
+    background-color: #288492;
+    display: flex;
+    align-items: center;
+}
+
+.colorWhite {
+    color: white;
+}
+.twitter {
+    width: 80%;
+}
+
+.buttons {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main {
+    display: flex;
+}
+
+.empty {
+    width: 35%;
+}
+
+.container {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    width: 100%;
+}
+
+.container input, select {
+    width: 100%;
+}
+
+.container button {
+    width: 20%;
+    height: 25%;
+    margin-top: 20px;
+}
+
+.bg-darkBlue {
+    background-color: #00008c;
+    color: white;
+}
+
+#sign {
+    height: 35%;
+}
