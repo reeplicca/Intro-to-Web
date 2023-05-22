@@ -1,0 +1,15 @@
+.container {
+    width: 30%;
+    border: 1px solid black;
+}
+
+.container > div {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 15px;
+}
+
+div > button {
+    background-color: green;
+    color: white;
+}
